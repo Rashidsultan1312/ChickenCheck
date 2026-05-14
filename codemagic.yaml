@@ -14,8 +14,8 @@ workflows:
         bundle_identifier: com.chickencheck
       vars:
         BUNDLE_ID: "com.chickencheck"
-        XCODE_PROJECT: "ChickenRoadV2.xcodeproj"
-        XCODE_SCHEME: "ChickenRoadV2"
+        XCODE_PROJECT: "ChickenRoadV2-Federleicht.xcodeproj"
+        XCODE_SCHEME: "ChickenRoadV2-Federleicht"
         APP_STORE_APPLE_ID: "6769376742"
 
     scripts:

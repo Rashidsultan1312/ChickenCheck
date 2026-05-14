@@ -5,18 +5,18 @@ workflows:
     instance_type: mac_mini_m2
 
     integrations:
-      app_store_connect: AS
+      app_store_connect: ChickenCheck
 
     environment:
       xcode: latest
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: com.amazoniasonora.soundmixapp
+        bundle_identifier: com.chickencheck
       vars:
-        BUNDLE_ID: "com.amazoniasonora.soundmixapp"
-        XCODE_PROJECT: "ForestaSonora.xcodeproj"
-        XCODE_SCHEME: "ForestaSonora"
-        APP_STORE_APPLE_ID: "6769325926"
+        BUNDLE_ID: "com.chickencheck"
+        XCODE_PROJECT: "ChickenRoadV2.xcodeproj"
+        XCODE_SCHEME: "ChickenRoadV2"
+        APP_STORE_APPLE_ID: "6769376742"
 
     scripts:
       - name: Set up code signing

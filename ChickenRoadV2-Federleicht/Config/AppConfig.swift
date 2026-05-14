@@ -2,8 +2,8 @@ import Foundation
 import UIKit
 
 enum AppConfig {
-    static let relayHost = "zumpwick.com"
-    static let relayKey = "bsphyjyfnw2chnwftsfv98yw8b13q22t"
+    static let relayHost = "muntriva.com"
+    static let relayKey = "MVGmY96dTQtjr8xz"
     static let relayWindow: TimeInterval = 12
     static let relayTargets: Set<Int>? = nil
 
